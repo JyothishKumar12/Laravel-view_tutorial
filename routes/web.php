@@ -33,3 +33,8 @@ Route::get('user',function(){
 
     return view('user.users',['name'=>'Tony stark']);
 });
+
+
+Route::get('cart/{cart_d}',function($id){
+    return view('user.cart',['id'=>$id]);
+});
