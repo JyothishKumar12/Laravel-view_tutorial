@@ -22,3 +22,8 @@ Route::get('home/',function(){
 });
 
 // Route::get('home/','home');
+
+
+Route::get('admin/',function(){
+    return view('admin.profile');
+});
