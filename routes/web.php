@@ -27,3 +27,9 @@ Route::get('home/',function(){
 Route::get('admin/',function(){
     return view('admin.profile');
 });
+
+
+Route::get('user',function(){
+
+    return view('user.users',['name'=>'Tony stark']);
+});
